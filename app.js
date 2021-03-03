@@ -55,6 +55,7 @@ const b = document.getElementById('b');
 const comp = document.getElementById('compute');
 const outputDisplay = document.getElementById('outDisplay');
 const historyContainer = document.getElementById('historyContainer');
+const instructions = document.getElementById('instructions');
 
 comp.addEventListener('click', () => {
     let var1 = parsedStringToNum(parseString(a.value));
@@ -72,6 +73,11 @@ comp.addEventListener('click', () => {
         historyContainer.appendChild(newDiv);
     }
 })
+
+instructions.addEventListener('click', () => {
+    alert('Enter a value between less than and greater than signs, and separate with a comma. Example: <3, -2, 3>');
+})
+
 
 
 

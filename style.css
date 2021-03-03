@@ -2,6 +2,14 @@ body {
     background: linear-gradient(to bottom right, orange, red);
 }
 
+#instructions {
+    position: absolute;
+    top: 65px;
+    left: 158px;
+    width: 80px;
+    height: 20px;
+}
+
 #screen {
     min-width: 100vw;
     min-height: 100vh;
