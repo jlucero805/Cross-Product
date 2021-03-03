@@ -19,8 +19,8 @@ body {
 
 #main {
     position: relative;
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 380px;
+    min-width: 380px;
     max-height: 200px;
     min-height: 200px;
     border: 1px solid black;
@@ -29,8 +29,8 @@ body {
 
 #history {
     position: relative;
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 380px;
+    min-width: 380px;
     max-height: 50px;
     min-height: 50px;
     border: 1px solid black;
@@ -39,8 +39,8 @@ body {
 
 #historyContainer {
     position: relative;
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 380px;
+    min-width: 380px;
     border: 1px solid black;
     margin: auto;
 }
