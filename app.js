@@ -72,11 +72,16 @@ comp.addEventListener('click', () => {
         newDiv.innerHTML = `${fixString(a.value)} X ${fixString(b.value)} = ${vector}`;
         historyContainer.appendChild(newDiv);
     }
+
+    comp.blur();
 })
 
 instructions.addEventListener('click', () => {
     alert('Enter a value between less than and greater than signs, and separate with a comma. Example: <3, -2, 3>');
+
+    instructions.blur();
 })
+
 
 
 
