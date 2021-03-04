@@ -55,13 +55,13 @@ body {
 
 #title {
     position: absolute;
-    left: 105px;
+    left: 100px;
 }
 
 #x {
     position: absolute;
-    top: 87px;
-    left: 193.5px;
+    top: 85px;
+    left: 193px;
 }
 
 #a {
@@ -72,6 +72,7 @@ body {
     background-color: rgb(253, 157, 1);
     border: none;
     outline: none;
+    text-align: center;
 }
 #b {
     position: absolute;
@@ -81,6 +82,7 @@ body {
     background-color: rgb(253, 157, 1);
     border: none;
     outline: none;
+    text-align: center;
 }
 
 #compute { 
@@ -103,5 +105,5 @@ body {
 #outDisplay {
     position: absolute;
     top: 139px;
-    left: 100px;
+    left: 105px;
 }
