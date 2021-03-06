@@ -32,7 +32,7 @@ const parsedStringToNum = array => {
 }
 
 const crossProduct = (a, b) => {
-    return [(a[1] * b[2] - a[2] * b[1]).toFixed(3), (-(a[0] * b[2] - a[2] * b[0])).toFixed(3), (a[0] * b[1] - a[1] * b[0]).toFixed(3)];
+    return [(a[1] * b[2] - a[2] * b[1]), (-(a[0] * b[2] - a[2] * b[0])), (a[0] * b[1] - a[1] * b[0])];
 }
 
 const vectorToString = array => {
