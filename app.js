@@ -49,15 +49,7 @@ const fixString = string => {
     return res;
 }
 
-/* DOM */
-const a = document.getElementById('a');
-const b = document.getElementById('b');
-const comp = document.getElementById('compute');
-const outputDisplay = document.getElementById('outDisplay');
-const historyContainer = document.getElementById('historyContainer');
-const instructions = document.getElementById('instructions');
-
-comp.addEventListener('click', () => {
+const computeButton = () => {
     let var1 = parsedStringToNum(parseString(a.value));
     let var2 = parsedStringToNum(parseString(b.value));
 
@@ -74,6 +66,24 @@ comp.addEventListener('click', () => {
     }
 
     comp.blur();
+}
+
+/* DOM */
+const a = document.getElementById('a');
+const b = document.getElementById('b');
+const comp = document.getElementById('compute');
+const outputDisplay = document.getElementById('outDisplay');
+const historyContainer = document.getElementById('historyContainer');
+const instructions = document.getElementById('instructions');
+
+comp.addEventListener('click', () => {
+    computeButton();
+})
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        computeButton();
+    }
 })
 
 instructions.addEventListener('click', () => {
